@@ -20,29 +20,29 @@ It covers data ingestion, storage, transformation, and visualization using multi
 
 ## Architecture Diagram
 ![Resource Group](https://github.com/hetvisundarkar/azure-end-to-end-data-engineering-project/blob/main/Architecture.png?raw=true)
+
 ## Azure Resources Setup
-This shows the initial Azure setup including Resource Group and Storage Account.  
-{resource_group.png}  
-{storage_account.png}
+This shows the initial Azure setup of Resource Group.  
+![Containers](https://github.com/hetvisundarkar/azure-end-to-end-data-engineering-project/blob/main/resource_group.png?raw=true)
 
 ## Data Lake Containers
 This shows the Bronze, Silver, and Gold containers created in Azure Data Lake Storage Gen2.  
-{containers_bronze_silver_gold.png}
-
-## ADF Pipelines
-These screenshots show the Azure Data Factory pipelines used to ingest raw data into the Bronze layer.  
-{adf_pipeline.png}
+![Containers](https://github.com/hetvisundarkar/azure-end-to-end-data-engineering-project/blob/main/Containers.png?raw=true)
 
 ## Databricks Notebook
 This shows the Databricks notebook where data is cleaned and transformed from Bronze to Silver.  
-{databricks_notebook.png}
+![Containers](https://github.com/hetvisundarkar/azure-end-to-end-data-engineering-project/blob/main/databricks_notebook1.png?raw=true)
+![Containers](https://github.com/hetvisundarkar/azure-end-to-end-data-engineering-project/blob/main/databricks_notebook2.png?raw=true)
+![Containers](https://github.com/hetvisundarkar/azure-end-to-end-data-engineering-project/blob/main/databricks_notebook3.png?raw=true)
+![Containers](https://github.com/hetvisundarkar/azure-end-to-end-data-engineering-project/blob/main/databricks_notebook4.png?raw=true)
+
 
 ## Synapse Tables
 This shows the tables and views created in Azure Synapse Analytics from the Silver/Gold layer data.  
-{synapse_tables.png}
+![Containers](https://github.com/hetvisundarkar/azure-end-to-end-data-engineering-project/blob/main/synapse.png?raw=true)
+![Containers](https://github.com/hetvisundarkar/azure-end-to-end-data-engineering-project/blob/main/synapse_tables.png?raw=true)
 
 ## Power BI Dashboard
 This shows the Power BI dashboard built on top of Synapse data for reporting and insights.  
-{powerbi_dashboard.png}
+![Containers](https://github.com/hetvisundarkar/azure-end-to-end-data-engineering-project/blob/main/Power%20BI.png?raw=true)
 
-## Folder Structure
