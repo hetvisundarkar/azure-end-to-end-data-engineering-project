@@ -19,7 +19,7 @@ It covers data ingestion, storage, transformation, and visualization using multi
 5. Power BI connects to Synapse to build dashboards and visualize insights.  
 
 ## Architecture Diagram
-![Resource Group](https://github.com/hetvisundarkar/azure-end-to-end-data-engineering-project/blob/main/Architecture.png?raw=true)
+<img width="1536" height="1024" alt="Architecture" src="https://github.com/user-attachments/assets/abe07093-0696-4ba7-9140-d11110eda36b" />
 
 ## Azure Resources Setup
 This shows the initial Azure setup of Resource Group.  
